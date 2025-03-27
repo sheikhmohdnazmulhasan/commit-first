@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "commit-first.helloWorld",
-        "title": "Hello World"
+        "command": "extension.generateCommitMessage",
+        "title": "Generate Git Commit Message"
       }
     ]
   },
