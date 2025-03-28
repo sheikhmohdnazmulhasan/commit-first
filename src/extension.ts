@@ -3,7 +3,7 @@ import { generateCommitMessage } from "./generateCommit";
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "extension.generateCommitMessage",
+    "extension.commitFirst",
     generateCommitMessage
   );
 

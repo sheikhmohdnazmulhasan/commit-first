@@ -21,6 +21,8 @@ export async function generateCommitMessage() {
     return;
   }
 
+  //   hello
+
   try {
     const response = await axios.post(
       OPENROUTER_URL,

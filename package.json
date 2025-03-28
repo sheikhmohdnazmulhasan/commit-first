@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.generateCommitMessage",
-        "title": "Generate Git Commit Message"
+        "command": "extension.commitFirst",
+        "title": "Commit First"
       }
     ]
   },
